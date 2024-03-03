@@ -1,10 +1,11 @@
 import React from "react";
-import howManyParks from "./parks/howManyParks";
+import logNumberOfParks from "./parks/howManyParks";
 
 function ColoradoStateParks() {
-  howManyParks(); // => "42 parks!"
+  // Log the number of parks
+  logNumberOfParks(); // => "42 parks!"
 
   return <h1>Colorado State Parks!</h1>;
 }
 
-export default ColoradoStateParks
+export default ColoradoStateParks;
